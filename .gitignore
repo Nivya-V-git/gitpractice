@@ -1,16 +1,31 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-
-# Environment files (NEVER commit these — contain secrets)
+venv/
 .env
 *.env
+
+# Node.js
+node_modules/
+npm-debug.log
+.npm
+
+# AWS & secrets (NEVER commit these)
+.aws/
+*.pem
+*.key
+credentials
+
+# Logs
+*.log
+logs/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-logs/
+# IDE files
+.vscode/
+.idea/
+*.swp
